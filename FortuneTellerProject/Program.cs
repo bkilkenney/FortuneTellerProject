@@ -17,11 +17,17 @@ namespace FortuneTellerProject
             Console.WriteLine("How old are you?");
             Console.ReadLine();
             Console.WriteLine("What is your birth month as a number?");
-            Console.ReadLine(); 
+            Console.ReadLine();
 
-            int birthMonth = 1;
+            int birthMonth = 1;  
                 if (birthMonth >= 1 || birthMonth <= 12);
-                Console.ReadLine();
+            {
+                Console.WriteLine("That's a great month!");
+            }
+
+            Console.WriteLine("What is your favorite ROYGBIV color?");
+            Console.ReadLine();  
+                                   
         }
     }
-}
+} 
