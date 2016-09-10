@@ -4,3 +4,9 @@ c:\users\wecancodeit\documents\visual studio 2015\Projects\FortuneTellerProject\
 c:\users\wecancodeit\documents\visual studio 2015\Projects\FortuneTellerProject\FortuneTellerProject\obj\Debug\FortuneTellerProject.csprojResolveAssemblyReference.cache
 c:\users\wecancodeit\documents\visual studio 2015\Projects\FortuneTellerProject\FortuneTellerProject\obj\Debug\FortuneTellerProject.exe
 c:\users\wecancodeit\documents\visual studio 2015\Projects\FortuneTellerProject\FortuneTellerProject\obj\Debug\FortuneTellerProject.pdb
+C:\Users\bkilkenney\FortuneTellerProject\FortuneTellerProject\bin\Debug\FortuneTellerProject.exe.config
+C:\Users\bkilkenney\FortuneTellerProject\FortuneTellerProject\obj\Debug\FortuneTellerProject.exe
+C:\Users\bkilkenney\FortuneTellerProject\FortuneTellerProject\obj\Debug\FortuneTellerProject.pdb
+C:\Users\bkilkenney\FortuneTellerProject\FortuneTellerProject\bin\Debug\FortuneTellerProject.exe
+C:\Users\bkilkenney\FortuneTellerProject\FortuneTellerProject\bin\Debug\FortuneTellerProject.pdb
+C:\Users\bkilkenney\FortuneTellerProject\FortuneTellerProject\obj\Debug\FortuneTellerProject.csprojResolveAssemblyReference.cache

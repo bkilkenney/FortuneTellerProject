@@ -18,10 +18,10 @@ namespace FortuneTellerProject
             Console.ReadLine();
             Console.WriteLine("What is your birth month as a number?");
             Console.ReadLine(); 
-
-            int birthMonth = 1;
-                if (birthMonth >= 1 || birthMonth <= 12);
-                Console.ReadLine();
+            Console.WriteLine("What is your favorite ROYGBIV color?  Enter \"Help\" if you don't know the ROYGBIV colors."); //All strings
+            Console.ReadLine();                                                                                             //convert where needed
+            Console.WriteLine("How many siblings do you have?");
+            Console.ReadLine(); 
         }
     }
 }
