@@ -12,7 +12,7 @@ namespace FortuneTellerProject
         {
             Console.WriteLine("\aWhat is your first name?");
             string fName = Console.ReadLine();            
-
+            
             Console.WriteLine("What is your last name?");
             string lname = Console.ReadLine();
 
@@ -36,10 +36,15 @@ namespace FortuneTellerProject
             {
                 Console.WriteLine(fullName + ", you will retire in 63 years"); 
             }
-                else
+
+                else if(age % 2 != 0)
                 {
-                    Console.WriteLine(fullName + ", you will retire in 3 years");
+                Console.WriteLine(fullName + ", you will retire in 3 years");
                 }
+                    else
+                    {
+                    Console.WriteLine("Invalid Answer");
+                    }
 
 //2nd if
 
@@ -125,6 +130,7 @@ namespace FortuneTellerProject
                 {
                 Console.WriteLine("That wasn't a valid answer, but we'll move on.");
                 }
+
 
         }
     }
