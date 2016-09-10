@@ -10,23 +10,44 @@ namespace FortuneTellerProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your first name?");
+            Console.WriteLine("\aWhat is your first name?");
             Console.ReadLine();
             Console.WriteLine("What is your last name?");
             Console.ReadLine();
             Console.WriteLine("How old are you?");
-            Console.ReadLine();
-            Console.WriteLine("What is your birth month as a number?");
-            Console.ReadLine();
 
-            int birthMonth = 1;  
-                if (birthMonth >= 1 || birthMonth <= 12);
+            int age = int.Parse(Console.ReadLine()); 
+                if(age % 2 ==0)
+                {
+                Console.WriteLine("You will retire in 450 years");
+                }
+                else
+                {
+                Console.WriteLine("You will retire in 3 years"); 
+                }
+
+            Console.WriteLine("What is your birth month as a number?");
+            int bMonth = int.Parse(Console.ReadLine());
+  
+             if(bMonth >= 1 && bMonth <= 4)
             {
-                Console.WriteLine("That's a great month!");
+                Console.WriteLine("with $200,000 in the bank");
+            }
+             else if(bMonth >= 5 && bMonth <= 8)
+            {
+                Console.WriteLine("with $6M in the bank");
+            }
+             else if(bMonth >= 9 && bMonth <= 12)
+            {
+                Console.WriteLine("with $35.78 in the bank");
+            }
+             else if(bMonth < 1 || bMonth > 12)
+            {
+                Console.WriteLine("and there won't be any money, but when you die, on your deathbed, you will receive total consciousness");
             }
 
             Console.WriteLine("What is your favorite ROYGBIV color?");
-            Console.ReadLine();  
+            Console.ReadLine();  //want to only look for the first letter behind the scenes here. 
                                    
         }
     }
