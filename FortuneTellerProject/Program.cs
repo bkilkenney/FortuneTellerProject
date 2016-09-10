@@ -28,15 +28,17 @@ namespace FortuneTellerProject
             Console.WriteLine("How many siblings do you have?");
             int numOfSibs = int.Parse(Console.ReadLine());
 
+            string fullName = fName + " " + lname; 
+
 //1st if
 
             if (age % 2 == 0)
             {
-                Console.WriteLine("You will retire in 450 years");
+                Console.WriteLine(fullName + ", you will retire in 63 years"); 
             }
             else
             {
-                Console.WriteLine("You will retire in 3 years");
+                Console.WriteLine(fullName + ", you will retire in 3 years");
             }
 
 //2nd if
