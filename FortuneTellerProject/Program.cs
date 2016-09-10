@@ -27,6 +27,7 @@ namespace FortuneTellerProject
                 }
 
             Console.WriteLine("What is your birth month as a number?");
+<<<<<<< HEAD
             int bMonth = int.Parse(Console.ReadLine());
   
              if(bMonth >= 1 && bMonth <= 4)
@@ -49,6 +50,13 @@ namespace FortuneTellerProject
             Console.WriteLine("What is your favorite ROYGBIV color?");
             Console.ReadLine();  //want to only look for the first letter behind the scenes here. 
                                    
+=======
+            Console.ReadLine(); 
+            Console.WriteLine("What is your favorite ROYGBIV color?  Enter \"Help\" if you don't know the ROYGBIV colors."); //All strings
+            Console.ReadLine();                                                                                             //convert where needed
+            Console.WriteLine("How many siblings do you have?");
+            Console.ReadLine(); 
+>>>>>>> b0fdb85e6ca6da4acf57de6ace04f463351606ef
         }
     }
 } 
