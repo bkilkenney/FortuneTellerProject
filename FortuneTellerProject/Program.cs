@@ -62,7 +62,7 @@ namespace FortuneTellerProject
                 }
                 else if (bMonth < 1 || bMonth > 12)
                 {
-                    Console.WriteLine("and there won't be any money, but when you die, on your deathbed, you will receive total consciousness");
+                    Console.WriteLine(", and there won't be any money, but when you die, on your deathbed, you will receive total consciousness.  Now go");
                 }
                     else
                     {
