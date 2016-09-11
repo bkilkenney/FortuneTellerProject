@@ -10,6 +10,8 @@ namespace FortuneTellerProject
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
+
             Console.WriteLine("\aWhat is your first name?");
             string fName = Console.ReadLine();            
             
@@ -100,7 +102,7 @@ namespace FortuneTellerProject
 
             if (favColor == 'R' || favColor == 'r')
             {
-                Console.WriteLine("flying a dirigible.");
+                Console.WriteLine("flying a dirigible.");                
             }
             else if (favColor == 'O' || favColor == 'o')
             {
