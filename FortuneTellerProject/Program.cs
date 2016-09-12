@@ -14,12 +14,25 @@ namespace FortuneTellerProject
 
             Console.WriteLine("\aWhat is your first name?");
             string fName = Console.ReadLine();
+            string convertQuitToLower = "quit";
+            if (fName.ToLower() == "quit")
+            {
+                Console.WriteLine("Nobody likes a quitter!");
+                System.Environment.Exit(0);
+            }
 
             Console.WriteLine("What is your last name?");
             string lname = Console.ReadLine();
+            string convertQuitToLower2 = "quit";
+            if (lname.ToLower() == "quit")
+            {
+                Console.WriteLine("Nobody likes a quitter!");
+                System.Environment.Exit(0);
+            }
 
-            Console.WriteLine("How old are you?");
+            Console.WriteLine("How old are you?");            
             int age = int.Parse(Console.ReadLine());
+            
 
             Console.WriteLine("What is your birth month as a number?");
             int bMonth = int.Parse(Console.ReadLine());
@@ -136,10 +149,7 @@ namespace FortuneTellerProject
             {
                 Console.WriteLine("driving a power wheel.");
             }
-            else if (favColor == "help") ;
-            {
-                Console.WriteLine("driving an M1 Abrahms tank.");
-            }
+           
         }
     }
 } 
