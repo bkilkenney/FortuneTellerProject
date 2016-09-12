@@ -52,7 +52,6 @@ namespace FortuneTellerProject
             //Next, favorite color question
 
             Console.WriteLine("What letter in ROYGBIV best represents your favorite color?");
-            Console.ReadLine(); 
             char favColor = char.Parse(Console.ReadLine());
 
             if(favColor == 'R')
@@ -101,7 +100,7 @@ namespace FortuneTellerProject
             }
             else if(numOfSibs == 2)
             {
-                Console.WriteLine("to your vacation home in Cleveland Hopkins Terminal C");
+                Console.WriteLine("to your vacation home in Cleveland Hopkins International Airport Terminal C");
             }
             else if(numOfSibs == 3)
             {
@@ -109,7 +108,7 @@ namespace FortuneTellerProject
             }
             else if(numOfSibs <= 0 || numOfSibs >= 4)
             {
-                Console.WriteLine("to your vacation home in the BMV");
+                Console.WriteLine("to your vacation home at the BMV");
             }
                 else
                     {
